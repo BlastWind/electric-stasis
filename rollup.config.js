@@ -21,7 +21,7 @@ export default {
   ],
   plugins: [
     sass({ insert: true }),
-    peerDepsExternal(), resolve(), babel({ exclude: 'node_modules/**' }), commonjs(), visualizer()
+    peerDepsExternal(), resolve(), babel({ exclude: 'node_modules/**' }), commonjs()
   ],
 
 }
